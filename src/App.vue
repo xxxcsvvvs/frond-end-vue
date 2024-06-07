@@ -5,7 +5,8 @@
       <div class="row h-100">
         <div class="col-md-6 col-lg-4 bg-dark px-2">
           <div class=" h-100 d-flex flex-column">
-            <div class="flex-grow-1 mb-3" style="height:0px; overflow-y:auto; overflow-x:hidden;">
+            <div class="flex-grow-1 mb-3" style="height:0px; 
+                 overflow-y:auto; overflow-x:hidden;">
               <AppMenu />
             </div>
           </div>
@@ -13,21 +14,20 @@
         <div class="col-md-6 col-lg-8 bg-dark px-2 ">
           <div class=" h-100 d-flex flex-column">
             <div class="flex-grow-1 overflow-auto" style="height:0px">
-              <router-view />
+              <router-view/>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
 </template>
 
 <script setup>
-import AppHeader from '@/components/AppHeader.vue';
-import AppMenu from '@/components/AppMenu.vue';
+import AppHeader from "@/components/AppHeader.vue";
+import AppMenu from "@/components/AppMenu.vue";
 </script>
 
+<style>
 
-<style></style>
+</style>

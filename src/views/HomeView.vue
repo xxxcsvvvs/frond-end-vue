@@ -1,27 +1,24 @@
 <template>
   <div class="card">
-      <div class="card-header">
-        HomeView
+    <div class="card-header">HomeView</div>
+    <div class="card-body">
+
+      <div class="home">
+        <img alt="Vue logo" src="../assets/logo.png">
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
       </div>
-          <div class="card-body">
-            <div class="home">
-            <img alt="Vue logo" src="../assets/logo.png">
-            <HelloWorld msg="Welcome to Your Vue.js App"/>
-            </div>
-          </div>
       
+    </div>
   </div>
 </template>
 
 <script setup>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
-
 </script>
 
 <style scoped>
-  .home{
+.home {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,3 +26,4 @@ import HelloWorld from '@/components/HelloWorld.vue'
   color: #2c3e50;
 }
 </style>
+

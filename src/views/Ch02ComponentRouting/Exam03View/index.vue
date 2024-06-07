@@ -14,7 +14,7 @@
 import UIComponentA from '@/components/Ch02ComponentRouting/UIComponentA.vue';
 import UIComponentB from '@/components/Ch02ComponentRouting/UIComponentB.vue';
 import UIComponentC from '@/components/Ch02ComponentRouting/UIComponentC.vue';
-import UIComponentD from './UIComponentD.vue';
+import UIComponentD from './UIComponentD.vue'
 </script>
 
 <style scoped>
